@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 136, 241);
+  border-radius: 0px;
+}
+ul li{
+  color: #fff;
+  list-style: none;
+  margin: 0 20px;
+  padding: 10px;
+
+}
+ul #li {
+  margin-left:0px;
+
+}
+#title{
+  text-decoration: none;
+  color: #ffff;
+  text-shadow: 3px 3px 3px black;
+  
+}
+ 
+
+ul .li:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 0px;
+  transition: 1s;
+}
+
+#content{
+  background-color: rgb(153, 153, 153);
+  width: 100%;
+  min-height: 500px;
+  padding: 20px;
+  border-radius: 0px;
+}
+ul .li .Link{
+  text-decoration: none;
+  color:black;
+}
+ul .li .Link:hover{
+  color: black;
+}
+ td button Link{
+  color: white;
+  text-decoration: none;
+}
